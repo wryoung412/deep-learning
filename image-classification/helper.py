@@ -10,6 +10,11 @@ def _load_label_names():
     """
     return ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
+def _get_num_labels():
+    """
+    Load the label names from file
+    """
+    return 10
 
 def load_cfar10_batch(cifar10_dataset_folder_path, batch_id):
     """
